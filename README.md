@@ -1,4 +1,6 @@
 #### X_Android使用
+<font color = "red">要使用本仓库需要在根目录添加：jitpack.io仓库
+</font>
 
 1.在根目录的setting.gradle中添加镜像：
 
@@ -43,7 +45,7 @@ android {
 }
 
 dependencies {
-    implementation project(":x-android")
+    implementation 'com.github.2317974178:X_Android:1.0.0'
 }
 ```
 

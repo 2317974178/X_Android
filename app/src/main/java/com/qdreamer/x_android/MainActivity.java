@@ -1,10 +1,8 @@
 package com.qdreamer.x_android;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import com.qdreamer.utils.AudioTrackPresenter;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
