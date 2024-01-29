@@ -34,7 +34,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //MQTT
-    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4'
-    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
-    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    api 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4'
+    api 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+    api 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
 }
